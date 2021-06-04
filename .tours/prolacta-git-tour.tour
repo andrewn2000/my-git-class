@@ -5,67 +5,67 @@
     {
       "file": "Gitbash.md",
       "description": "This is for Present Working Directory (pwd)\r\n \r\n>> pwd",
-      "line": 3
+      "line": 2
     },
     {
       "file": "Gitbash.md",
       "description": "mkdir is to create a new directory MAKE DIRECTORY is the offical name followed by the name of the directory\r\n\r\n>> mkdir demotest",
-      "line": 5
+      "line": 4
     },
     {
       "file": "Gitbash.md",
       "description": "cd is to CHANGE DIRECTORY.  This is to change INTO a particular directory.\r\n\r\n>> cd demotest",
-      "line": 7
+      "line": 6
     },
     {
       "file": "Gitbash.md",
       "description": "cd .. is a short cut to move UP one directory\r\n>> cd ..",
-      "line": 9
+      "line": 8
     },
     {
       "file": "Gitbash.md",
       "description": "rmdir is to REMOVE a directory.  NOTE:  the directory must be empty before removal\r\nTo remove all contents in a directory use rm -rf <<directory-name>>\r\n>> rmdir demotest",
-      "line": 11
+      "line": 10
     },
     {
       "file": "Gitbash.md",
       "description": "to start a new repository:  git init <<repository name>>\r\n>> git init repo1",
-      "line": 15
+      "line": 14
     },
     {
       "file": "Gitbash.md",
       "description": "change directory into the new directory called repo1\r\n>> cd repo1",
-      "line": 17
+      "line": 16
     },
     {
       "file": "Gitbash.md",
       "description": "Create a file inside the directory\r\n>> type nul >> \"file1.txt\"",
-      "line": 19
+      "line": 18
     },
     {
       "file": "Gitbash.md",
       "description": "Find the status of the repository\r\n>> git status",
-      "line": 21
+      "line": 20
     },
     {
       "file": "Gitbash.md",
       "description": "Add the file into git with syntax:  git add <<filename>>\r\nThis is called adding or STAGING the files into your local repo\r\n>> git add file1.txt",
-      "line": 23
+      "line": 22
     },
     {
       "file": "Gitbash.md",
       "description": "Access the log history of the git repo\r\n>> git log",
-      "line": 27
+      "line": 26
     },
     {
       "file": "Gitbash.md",
       "description": "Add some text into file1.txt\r\n>> echo \"Hello World\" >> file1.txt",
-      "line": 30
+      "line": 29
     },
     {
       "file": "Gitbash.md",
       "description": "Review file1.txt contents\r\n>> cat file1.txt",
-      "line": 32
+      "line": 31
     },
     {
       "file": "Gitbash.md",
@@ -80,17 +80,17 @@
     {
       "file": "Gitbash.md",
       "description": "To create a new branch use: git branch <<branch name>>\r\n>> git branch dev",
-      "line": 38
+      "line": 37
     },
     {
       "file": "Gitbash.md",
       "description": "To checkout a branch (meaning being on that branch):  git checkout <<branch name>>\r\n>> git checkout dev",
-      "line": 40
+      "line": 39
     },
     {
       "file": "Gitbash.md",
       "description": "Add some new text to file1.txt\r\n>> echo \"My Dev World\" >> file1.txt\r\n\r\nTo add change:\r\n>> git add file1.txt\r\n\r\nTo commit change:\r\n>> git commit -m \"My dev change\"",
-      "line": 46,
+      "line": 45,
       "selection": {
         "start": {
           "line": 46,
@@ -105,7 +105,7 @@
     {
       "file": "Gitbash.md",
       "description": "Change to another branch:  git checkout <<branch name>>\r\n>> git checkout master",
-      "line": 48
+      "line": 47
     },
     {
       "file": "Gitbash.md",
@@ -115,12 +115,12 @@
     {
       "file": "Gitbash.md",
       "description": "First swtich back to the master brach:\r\n>> git checkout master\r\n\r\nMerge a branch to master:  git merge <<branch name>>\r\n>> git merge dev",
-      "line": 55
+      "line": 54
     },
     {
       "file": "Gitbash.md",
       "description": ">> git log",
-      "line": 57
+      "line": 56
     },
     {
       "file": "Gitbash.md",
