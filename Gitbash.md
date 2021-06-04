@@ -7,10 +7,12 @@
 ## Dont forget that you have to be able to run your VS Code from a command line by "code"
 ## git config --global core.editor "code" --wait
 ## if not, you can use this:
-## git config --global core.editor "C:\Users\{username}\AppData\Local\Programs\Microsoft VS Code\Code.exe" --wait
+## git config --global core.editor "C:\Users\anakamura\AppData\Local\Programs\Microsoft VS Code\Code.exe" --wait
 
 ## to revert back
 ## git config --global --unset core.editor
+
+## also install the VS Code extension:  CodeTour
 
 Show the present working directory (where you are)
 
