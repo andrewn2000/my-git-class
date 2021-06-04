@@ -1,4 +1,7 @@
 # GitBash Lecture Notes
+# Dont forget to set your config files!
+# git config --global user.name ="Andy Nakamura"
+# git config --global user.email ="anakamura@prolacata.com"
 
 Show the present working directory (where you are)
 
@@ -57,6 +60,3 @@ Merge the dev branch to master
 Get the history of the repo
 
 ## Clean up, remove directory
-
-make something better
-ok better
